@@ -29,6 +29,12 @@ public class NewsPost extends Post {
 	public void setNewsTime(LocalDate newsTime) {
 		this.newsTime = newsTime;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "NewsPost{" +
+				"headline='" + headline + '\'' +
+				", newsTime=" + newsTime +
+				'}';
+	}
 }

@@ -20,7 +20,7 @@ public class PostFactory {
 		case "product":
 				return new ProductPost();
 		default:
-				throw new IllegalArgumentException("Post type is unown");	
+				throw new IllegalArgumentException("Post type is unknown");
 		}
 	}
 	

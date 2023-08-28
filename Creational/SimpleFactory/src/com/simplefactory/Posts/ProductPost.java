@@ -27,6 +27,12 @@ public class ProductPost extends Post {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "ProductPost{" +
+				"imageUrl='" + imageUrl + '\'' +
+				", name='" + name + '\'' +
+				'}';
+	}
 }
