@@ -1,4 +1,6 @@
-package com.coffeepoweredcrew.simplefactory;
+package com.simplefactory.Posts;
+
+import com.simplefactory.Post;
 
 /**
  * Represents a blog post. 

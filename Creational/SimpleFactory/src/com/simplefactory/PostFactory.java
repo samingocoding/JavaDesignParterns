@@ -1,4 +1,8 @@
-package com.coffeepoweredcrew.simplefactory;
+package com.simplefactory;
+
+import com.simplefactory.Posts.BlogPost;
+import com.simplefactory.Posts.NewsPost;
+import com.simplefactory.Posts.ProductPost;
 
 /**
  * This class acts as a simple factory for creation of 

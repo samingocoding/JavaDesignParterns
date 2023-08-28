@@ -1,4 +1,6 @@
-package com.coffeepoweredcrew.simplefactory;
+package com.simplefactory.Posts;
+
+import com.simplefactory.Post;
 
 import java.time.LocalDate;
 
@@ -6,7 +8,7 @@ import java.time.LocalDate;
  * Represents a news post.
  *
  */
-public class NewsPost extends Post{
+public class NewsPost extends Post {
 
 	private String headline;
 	
